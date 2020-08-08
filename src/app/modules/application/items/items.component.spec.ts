@@ -1,6 +1,34 @@
+// // import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+// // import { ItemsComponent } from './items.component';
+
+// // describe('ItemsComponent', () => {
+// //   let component: ItemsComponent;
+// //   let fixture: ComponentFixture<ItemsComponent>;
+
+// //   beforeEach(async(() => {
+// //     TestBed.configureTestingModule({
+// //       declarations: [ ItemsComponent ]
+// //     })
+// //     .compileComponents();
+// //   }));
+
+// //   beforeEach(() => {
+// //     fixture = TestBed.createComponent(ItemsComponent);
+// //     component = fixture.componentInstance;
+// //     fixture.detectChanges();
+// //   });
+
+// //   it('should create', () => {
+// //     expect(component).toBeTruthy();
+// //   });
+// // });
+
+
 // import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 // import { ItemsComponent } from './items.component';
+// import { HttpClientModule } from '@angular/common/http';
 
 // describe('ItemsComponent', () => {
 //   let component: ItemsComponent;
@@ -8,9 +36,12 @@
 
 //   beforeEach(async(() => {
 //     TestBed.configureTestingModule({
-//       declarations: [ ItemsComponent ]
+//       imports: [
+//         HttpClientModule
+//       ],
+//       declarations: [ItemsComponent]
 //     })
-//     .compileComponents();
+//       .compileComponents();
 //   }));
 
 //   beforeEach(() => {
@@ -29,6 +60,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ItemsComponent } from './items.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserTransferStateModule } from '@angular/platform-browser';
 
 describe('ItemsComponent', () => {
   let component: ItemsComponent;
@@ -37,7 +69,8 @@ describe('ItemsComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        HttpClientModule
+        HttpClientModule,
+        BrowserTransferStateModule
       ],
       declarations: [ItemsComponent]
     })
