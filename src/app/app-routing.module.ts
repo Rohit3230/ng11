@@ -3,9 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './modules/general/home/home.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
+import { UploadImagesComponent } from './modules/application/upload-images/upload-images.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, },
+  { path: 'upload', component: UploadImagesComponent, },
   {
     path: 'about',
     loadChildren: () => import('./modules/general/about/about.module')

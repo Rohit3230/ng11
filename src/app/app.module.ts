@@ -34,12 +34,14 @@ import { HomeComponent } from './modules/general/home/home.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { UploadImagesComponent } from './modules/application/upload-images/upload-images.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NotFoundComponent,
+    UploadImagesComponent,
   ],
   imports: [
     BrowserModule,
