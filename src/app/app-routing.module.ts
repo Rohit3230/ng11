@@ -12,9 +12,14 @@ const routes: Routes = [
       .then(mod => mod.SigninModule)
   },
   {
-    path: 'chatBot',
+    path: 'chat-bot',
     loadChildren: () => import('./modules/application/chat-bot/chat-bot.module')
       .then(mod => mod.ChatBotModule)
+  },
+  {
+    path: 'live-chat',
+    loadChildren: () => import('./modules/application/live-chat/live-chat.module')
+      .then(mod => mod.LiveChatModule)
   },
   {
     path: 'httpclient',

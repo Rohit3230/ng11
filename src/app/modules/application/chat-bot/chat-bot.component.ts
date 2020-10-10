@@ -21,7 +21,7 @@ export class ChatBotComponent implements OnInit {
     // debugger;
     // console.log('chatAnsArr****', chatAnsArr);
     this.chatAnsArray = chatAnsArr;
-    this.subject.complete();
+    // this.subject.complete();
   }
 
   openLiveChat(){
