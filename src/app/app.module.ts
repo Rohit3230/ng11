@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule } from '@angular/http';
+// import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -24,7 +24,7 @@ import { HttpService } from './services/http.services';
   //   HttpService
   // ],
   providers: [
-    HttpModule,
+    // HttpModule,
     UtilService,
     HttpService
   ],
