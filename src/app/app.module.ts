@@ -11,12 +11,14 @@ import { HttpService } from './services/http.services';
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    // formsModule
+    // ChatBotModule
   ],
   // exports : [
   //   HttpService
