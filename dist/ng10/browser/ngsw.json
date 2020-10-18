@@ -1,0 +1,130 @@
+{
+  "configVersion": 1,
+  "timestamp": 1602999921020,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/4.563437f2da539166b54c.js",
+        "/5.39919f01cc35093e20a0.js",
+        "/6.204047ad9702e9245a49.js",
+        "/7.001051e82052343fa8cf.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.b30d9c67341bd1a9544c.js",
+        "/manifest.webmanifest",
+        "/polyfills.a4021de53358bb0fec14.js",
+        "/runtime.806a3f1d058b79c6eb08.js",
+        "/scripts.72b2f74c50e5a90517e4.js",
+        "/styles.e24285f01ad26688c13a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/MarwadiFevicon.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images.png",
+        "/assets/params/css/index.css",
+        "/assets/params/images/logo/ganatan.png",
+        "/assets/params/js/index.js",
+        "/fa-brands-400.1776173e3b1af55eb455.ttf",
+        "/fa-brands-400.28d8b8fcc41c3b7134ff.woff",
+        "/fa-brands-400.37913cdf7cb0571dfac0.woff2",
+        "/fa-brands-400.63b566233f163d538cce.svg",
+        "/fa-brands-400.bfcc3384b8a317dc5de3.eot",
+        "/fa-regular-400.0c6f12b9eaa2ad444a6b.eot",
+        "/fa-regular-400.1b536b782d09dd59dda8.svg",
+        "/fa-regular-400.c3c2ab4f63b8d9973c78.woff2",
+        "/fa-regular-400.c9c57c0f1f4eb34dbf57.ttf",
+        "/fa-regular-400.fcaa6c135683a3fa1b50.woff",
+        "/fa-solid-900.22aa6d4357cf74671bc4.woff",
+        "/fa-solid-900.3e2bc2ffd29f01066d23.svg",
+        "/fa-solid-900.4055b0575d40bfb3c7e8.woff2",
+        "/fa-solid-900.a480ec972cb6bce30533.ttf",
+        "/fa-solid-900.dfaa060a451d978c2565.eot"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/4.563437f2da539166b54c.js": "e1f4acdefd74dafc142c93e2c9c388638a63b459",
+    "/5.39919f01cc35093e20a0.js": "9cc1e554165b1ad3d548645f32f6d6d4e5c44266",
+    "/6.204047ad9702e9245a49.js": "c667fd7f5413db461ad06167abbfca4e53f4960d",
+    "/7.001051e82052343fa8cf.js": "4ec704c0af5e2c54134f4480f65dd70ceab939c0",
+    "/assets/icons/MarwadiFevicon.png": "28c160be083464a3738541aff7cbd692fdef9b3a",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images.png": "100adeca4cd9849ec5062f352a9d962b1ee9c3cf",
+    "/assets/params/css/index.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/params/images/logo/ganatan.png": "53662e88188be90d80b14ae0d9e8335b0b8ea0a0",
+    "/assets/params/js/index.js": "34f0c31ecf5467943756eb15fc7b6476a813e976",
+    "/fa-brands-400.1776173e3b1af55eb455.ttf": "29f59b4eecc72052d9110a5d4030a10ad9bf73d7",
+    "/fa-brands-400.28d8b8fcc41c3b7134ff.woff": "fddb95d7a0f48d2bf90a5ee3095e8264dca18053",
+    "/fa-brands-400.37913cdf7cb0571dfac0.woff2": "62584b9868428fd75af3fc5ee2f9918dda428be5",
+    "/fa-brands-400.63b566233f163d538cce.svg": "99dff0739882276ad6c434d73228efc7971b0a66",
+    "/fa-brands-400.bfcc3384b8a317dc5de3.eot": "40c8f2a0dc154160fde50e0c27f694f12c7b1636",
+    "/fa-regular-400.0c6f12b9eaa2ad444a6b.eot": "3306178c90d9df939d2a5eabf533ba3650fbe80e",
+    "/fa-regular-400.1b536b782d09dd59dda8.svg": "51afca56e309df6fdc56b53fa6a7d3ce64826490",
+    "/fa-regular-400.c3c2ab4f63b8d9973c78.woff2": "5e4d45052f43e55aaad7f14d13280215e39aa45b",
+    "/fa-regular-400.c9c57c0f1f4eb34dbf57.ttf": "517a3b41c1e01b65898b5f1074434d43a361a54f",
+    "/fa-regular-400.fcaa6c135683a3fa1b50.woff": "da17a9f1dcae379c8ba20f1089059c202216cba7",
+    "/fa-solid-900.22aa6d4357cf74671bc4.woff": "f13e252f8a51a5279fd21e26ada0bd2f55bcefd8",
+    "/fa-solid-900.3e2bc2ffd29f01066d23.svg": "5501fb62e20a89bdd89bf3fa147ca4dbcd2fc67f",
+    "/fa-solid-900.4055b0575d40bfb3c7e8.woff2": "6290834672aba86d5b6c1c73b30b57c9c53996f7",
+    "/fa-solid-900.a480ec972cb6bce30533.ttf": "874c650701d0cbfb8f1de48a496dabed3bbf22e6",
+    "/fa-solid-900.dfaa060a451d978c2565.eot": "96a5637429426764ea9b28bf4d1eb55ae10de57e",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "4061ae6708323a74c050556ed3a498bb23c60842",
+    "/main.b30d9c67341bd1a9544c.js": "f81fc26136fc64540a8b4d9ce3d16a87dc939087",
+    "/manifest.webmanifest": "57fb17398dea3ef54e6657883b16dc4199dc62bc",
+    "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "/runtime.806a3f1d058b79c6eb08.js": "98d1a73fc946d97b0187440b740df6ea32a8d7a0",
+    "/scripts.72b2f74c50e5a90517e4.js": "17a88f4266a95b8ad00e36f70dc90ea1c4854afe",
+    "/styles.e24285f01ad26688c13a.css": "db02ac920c9f72636f52f9109e62bfa9507d9b35"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
