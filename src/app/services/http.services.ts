@@ -25,25 +25,20 @@ const httpOptions = {
 	)
   };
 
+  // const mainApi = "http://3.12.132.105/";
+
 @Injectable({  
 	providedIn: 'root'  
 })  
-export class HttpService {
-
-	// private SERVER_URL = "http://localhost:3000";
-	// constructor(private httpClient: HttpClient) { }
-
-	// public fetchData(){  
-	// 	return this.httpClient.get(`${this.SERVER_URL}/products`);  
-	// }  
-
-	loginUser : string = 'https://api.yogems.com/api/v0/login/';
+export class HttpService {	
 
 	constructor(
 		private _http: HttpClient,
 		private _Helpers: UtilService,
 	   // private _headers : Headers
 	  ) { }
+
+	  loginUser : string = this._Helpers.getBaseUrl()+'/login/';
 
 	  get(url: string) {
 		return this._http.get(url, httpOptions);

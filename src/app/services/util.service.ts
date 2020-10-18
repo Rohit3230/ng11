@@ -13,11 +13,17 @@ export class UtilService {
 
 
   getBaseUrl() {
-    const url: string = 'https://api.yogems.com/api/';
-    // const url : string = 'https://api.yogems.in/api/';
-    const version: string = "v0/";
-    let baseurl: string = url + version;
-    return baseurl;
+    const url: string = 'http://3.12.132.105:4000/';
+    // const version: string = "v0/";
+    // let baseurl: string = url + version;
+    return url;
+  }
+
+  getWebSocketBaseUrl() {
+    const url: string = 'ws://3.12.132.105:3230/';
+    // const version: string = "v0/";
+    // let baseurl: string = url + version;
+    return url;
   }
 
   getCookie(name: string) {

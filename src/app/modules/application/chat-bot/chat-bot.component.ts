@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { webSocket } from "rxjs/webSocket";
+import { UtilService } from '../../../services/util.service';
 
 @Component({
   selector: 'app-chat-bot',
@@ -9,9 +10,14 @@ import { webSocket } from "rxjs/webSocket";
 export class ChatBotComponent implements OnInit {
   // thisIns = this;
   // chatQuesId:string ='init';
-  subject = webSocket("ws://localhost:3230");
+  
+  constructor(
+    private _Helpers: UtilService
+  ) { }
+
+  // subject = webSocket("ws://localhost:3230");
+  subject = webSocket(this._Helpers.getWebSocketBaseUrl());
   chatAnsArray:any=[];
-  constructor() { }
 
   ngOnInit(): void {
     this.getAnswers('init');
