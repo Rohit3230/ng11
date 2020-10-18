@@ -15,8 +15,8 @@ export class ChatBotComponent implements OnInit {
     private _Helpers: UtilService
   ) { }
 
-  // subject = webSocket("ws://localhost:3230");
-  subject = webSocket(this._Helpers.getWebSocketBaseUrl());
+  subject = webSocket("ws://localhost:3230");
+  // subject = webSocket(this._Helpers.getWebSocketBaseUrl());
   chatAnsArray:any=[];
 
   ngOnInit(): void {
