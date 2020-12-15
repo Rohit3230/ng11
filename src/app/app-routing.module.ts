@@ -26,12 +26,13 @@ const routes: Routes = [
     loadChildren: () => import('./modules/application/items/items.module')
       .then(mod => mod.ItemsModule)
   },
-  { path: '**', component: NotFoundComponent }
+  { path: '*', component: NotFoundComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabled'
+    initialNavigation: 'enabled',
+    relativeLinkResolution: 'legacy'
 })],
   exports: [RouterModule],
   declarations: []
