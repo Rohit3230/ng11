@@ -1,22 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './modules/general/home/home.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { UtilService } from './services/util.service';
+import { HttpService } from './services/http.services';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     NotFoundComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    // formsModule
+    // ChatBotModule
   ],
-  providers: [],
+  // exports : [
+  //   HttpService
+  // ],
+  providers: [
+    HttpModule,
+    UtilService,
+    HttpService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

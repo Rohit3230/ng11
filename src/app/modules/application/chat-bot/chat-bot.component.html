@@ -1,0 +1,29 @@
+<!-- <p>chat-bot works!</p> -->
+
+
+  <h1>
+    Welcome to Chat-bot Application.
+  </h1>
+  <!-- <input type="text" name="txt" [(ngModel)]="message" (change)="sendMsg($event)" /> -->
+  <!-- <button (click)="getAnswers(secondOldQuesId, true)">Back</button> -->
+
+
+
+  <div *ngIf="chatAnsArray && chatAnsArray.length">
+    <ul>
+      <li *ngFor="let dataObj of chatAnsArray">
+        <p [innerHTML]="dataObj.data"></p>
+        <button *ngIf="dataObj.type == 'link'" type="btn" class="btn btn-secondary"  (click)="getAnswers(dataObj._id)" >Select</button>
+        <br><br>
+      </li>
+      <li >
+        <p>
+          Go to live chat
+        </p>
+        <!-- <button type="btn" class="btn btn-success"  (click)="openLiveChat()" >Live Chat</button> -->
+        <a type="btn" class="btn btn-success" routerLink="/signin">Live Chat</a>
+        <br><br>
+      </li>
+    </ul>
+  </div>
+  
