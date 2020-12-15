@@ -1,5 +1,5 @@
 {
-  "name": "ng10",
+  "name": "ng11",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run ng10:serve-ssr",
-    "serve:ssr": "node dist/ng10/server/main.js",
-    "build:ssr": "ng build --prod && ng run ng10:server:production",
-    "prerender": "ng run ng10:prerender"
+    "dev:ssr": "ng run ng11:serve-ssr",
+    "serve:ssr": "node dist/ng11/server/main.js",
+    "build:ssr": "ng build --prod && ng run ng11:server:production",
+    "prerender": "ng run ng11:prerender"
   },
   "private": true,
   "dependencies": {

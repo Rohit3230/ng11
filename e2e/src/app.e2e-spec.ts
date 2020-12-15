@@ -10,7 +10,7 @@
 
 //   it('should display welcome message', () => {
 //     page.navigateTo();
-//     expect(page.getTitleText()).toEqual('ng10 app is running!');
+//     expect(page.getTitleText()).toEqual('ng11 app is running!');
 //   });
 
 //   afterEach(async () => {
